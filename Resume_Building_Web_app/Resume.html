@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<link rel="stylesheet" href="Resume.css">
+
+<body>
+
+    <main>
+
+        <!--Search Box -->
+        <section class="Search_Box">
+            <button id="Prev" class="Prev">Prev</button>
+            <input type="search" placeholder="Enter The Post" class="Search_box">
+            <button id="Next" class="Next">Next</button>
+            <button id="log_out" onclick="Log_out()">Log out</button>
+        </section>
+        <!--Error Section-->
+        <div id="noResultContainer" class="no-result">
+            <p class="no-result-text"><span><i class="fa-solid fa-face-frown"></i></span>
+                <b>sorry! No Student Found</b>
+            </p>
+        </div>
+
+        <!--Resume-->
+        <div class="Resume">
+
+            <!--Header-->
+            <header class="header">
+
+                <h1 id="Name">John Doe</h1>
+                <p id="Post">Software Engineer</p>
+            </header>
+
+            <!--Details-->
+
+            <div class="Details">
+
+                <!--Aside Bar-->
+                <aside class="Personal_Details">
+
+                    <section class="Personal_Informention">
+                        <h1 class="Title1">Personal Details</h1>
+                        <hr>
+                        <p id="num">9999999999</p>
+                        <p id="Email">john@gmail.com</p>
+                        <p id="address">2712 Broadway St</p>
+                        <p id="postalCode">560063</p>
+                        <p id="city">Bangalore</p>
+                        <p id="state">Karnataka</p>
+                        <p id="Social_Profile">LinkedIn</p>
+                        <p id="URl"><a href="#">https://linkedin.com/john</a></p>
+                    </section>
+                    <section class="technical_Skills">
+                        <h1 class="Title2">Technical skills</h1>
+                        <hr>
+                        <p id="Skill_Name">Web Developmen</p>
+                        <p id="Skill_level">Master</p>
+                        <p id="Keywords"><b>KeyWords</b></p>
+
+                        <p id="Skills">Excel,Data Management,Communication skill</p>
+                    </section>
+                </aside>
+                <!--Main Details Bar -->
+                <section class="Work_Experience">
+                    <h1 class="Title1">Work Experience in privious Company</h1>
+                    <hr>
+                    <b>Company Name:</b><p id="CompanyName"></p>
+                    <b>Position:</b><p id="Position"></p>
+                    <b>Start_Date:</b><p id="Start_Date"></p>
+                    <b>End_Date:</b><p id="End_Date"></p>
+                    <b>Summury:</b><p id="Summury"></p>
+                </section>
+                <section class="Projects">
+                    <h1 class="Title2">Projects</h1>
+                    <hr>
+                    <b>Project Name:</b><p id="NameP"></p>
+                    <b>Description:</b><p id="Diabetic_Retinoperty"></p>
+
+                </section>
+
+                <section class="Educetion">
+                    <h1 class="Title3">Educetion</h1>
+                    <hr>
+                   <b>Collage:</b><p id="UG"></p>
+                   <b>Post_Graduetion:</b><p id="pG"></p>
+                    <b>High School:</b><p id="High"></p>
+
+                </section>
+
+                <section class="Internship">
+
+                    <h1 class="Title4">Internship</h1>
+                    <hr>
+                    <b>Company Name:</b><p id="Company_Name"></p>
+                    <b>Position:</b><p id="PositionC"></p>
+                    <b>Start Date:</b><p id="Start_DateC"></p>
+                    <b>End Date:</b><p id="End_DateC"></p>
+                    <b>Summury:</b><p id="SummuryC"></p>
+                </section>
+
+                <section class="Acivments">
+
+                    <h1 class="Title5">Acivments</h1>
+                    <hr>
+                    <p id="Achivments"></p>
+                </section>
+
+                <section class="Interest">
+
+                    <h1 class="Title6">Interest</h1>
+                    <hr>
+                    <p id="hobbies"></p>
+                </section>
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+
+    <script src=".\Resume.js"></script>
+
+
+</body>
+
+</html>
